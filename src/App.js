@@ -1,8 +1,5 @@
 
 
-
-
-
 import './App.css';
 import { Component } from 'react';
 
@@ -44,6 +41,11 @@ class App extends Component {
 
           {this.state.monsters.map(s=><p key={s.id}>{s.name}</p>)}
          </div>
+         <table className='table'>
+          <th>MY Title</th>
+          <th>Hello</th>
+         </table>
+
         
         
         </header>
